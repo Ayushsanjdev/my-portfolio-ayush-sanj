@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+:root {
+    font-size: 14px;
+}
+
+body {
+    max-width: 1069px;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+}
+
+#head {
+    padding: 1.5rem 1rem;
+    background-color: rgba(0, 162, 255, 0.678);
+    border-bottom: 1rem groove springgreen;
+    border-top: 1rem groove springgreen;
+}
+
+#head h1 {
+    padding: 1.5rem;
+    font-size: 2.5rem;
+    font-weight: 550;
+    letter-spacing: -0.03rem;
+    line-height: -0.08rem;
+}
+
+#head, #navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    color: #fff;
+}
+
+#navbar  div {
+    padding: 1rem 1.5rem;
+    background-color: springgreen;
+    border-radius: 10px;
+    margin: 1.5rem;
+}
+
+#navbar div:hover {
+    background-color:rgba(58, 40, 90, 0.664);
+}
+
+#navbar div:nth-child(1) {
+    background-color: rgba(58, 40, 90, 0.664);
+}
+
+#navbar > div > a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* 
+Here I will make hamburger menu button
+@media only screen and (max-width: 750px) {
+    #navbar {
+        
+    }
+} */
+
+.the-only-img {
+    max-width: 100%;
+    padding: 2rem;
+}
+
+.name-para, .title-para {
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    font-weight: bolder;
+    color:rgb(13, 109, 133);
+}
+
+#stack-section {
+    padding: 2rem 0rem;
+    border-radius: 5px;
+    
+}
+
+#stack-section h1 {
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    color: rgba(54, 33, 92, 1);
+}
+
+#stack-section div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    padding: 0.5rem;
+    background-color:springgreen;
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#stack-section #stack-div {
+    border-bottom: 1rem groove springgreen;
+    border-top: 1rem groove springgreen;
+}
+
+#projects-section h1{
+    text-align: center;
+    color: rgba(54, 33, 92, 1);
+    padding: 1rem;
+}
+
+

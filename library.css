@@ -106,11 +106,6 @@ body {
     border-bottom: 5px groove springgreen;
 }
 
-#grid-sec img:hover {
-    padding: -2rem;
-    transition: all 1s;
-}
-
 #grid-sec p {
     padding-bottom: 1rem;
 }

@@ -95,10 +95,38 @@ body {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
     text-align: center;
+    
 }
 
 #grid-sec img {
-    width: 100%;
+    width: 300px;
+    object-fit: cover;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    border-bottom: 5px groove springgreen;
+}
+
+#grid-sec img:hover {
+    padding: -2rem;
+    transition: all 1s;
+}
+
+#grid-sec p {
+    padding-bottom: 1rem;
+}
+
+button {
+    background-color: rgba(0, 162, 255, 0.678);
+    padding: 0.5rem;
+    color: #fff;
+    border: transparent;
+    border-radius: 10px;
+    margin: 0.5rem;
+}
+
+button:hover {
+    background-color: springgreen;
+    cursor: pointer;
 }
 
 #stack-section {

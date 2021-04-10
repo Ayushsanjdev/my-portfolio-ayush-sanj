@@ -90,6 +90,17 @@ body {
     color: rgb(13, 109, 133);
 }
 
+#grid-sec {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    text-align: center;
+}
+
+#grid-sec img {
+    width: 100%;
+}
+
 #stack-section {
     padding: 2rem 0rem;
     border-radius: 5px;
@@ -154,6 +165,11 @@ body {
     text-align: center;
 }
 
+.projects-btn a, .blogs-btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .projects-btn:hover,
 .blogs-btn:hover {
     background-color: springgreen;
@@ -199,8 +215,8 @@ body {
 
 
 /* Here I will make hamburger menu button */
-@media only screen and (max-width: 687px) {
+/* @media only screen and (max-width: 687px) {
     #navbar {
         display: none;
     }
-}
+} */

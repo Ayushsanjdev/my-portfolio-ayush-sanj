@@ -60,6 +60,7 @@ body {
 
 #navbar div:hover {
     background-color: rgba(58, 40, 90, 0.664);
+    transform: scale(1.1);
     transition: all 1s;
 }
 
@@ -85,6 +86,7 @@ body {
     text-align: center;
     font-weight: bolder;
     color: rgb(13, 109, 133);
+    padding-bottom: 3rem;
 }
 
 #grid-sec {
@@ -118,6 +120,7 @@ button {
 button:hover {
     background-color: springgreen;
     cursor: pointer;
+    transform: scale(1.2);
     transition: all 1s;
 }
 
@@ -195,6 +198,7 @@ button:hover {
 .blogs-btn:hover {
     background-color: springgreen;
     cursor: pointer;
+    transform: scale(1.2);
     transition: all 1s;
 }
 
@@ -229,7 +233,7 @@ button:hover {
 }
 
 #footer img:hover {
-    padding-bottom: 1rem;
+    transform: scale(1.5);
     transition: all 1s;
 }
 

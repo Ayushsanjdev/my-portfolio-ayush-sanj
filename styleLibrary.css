@@ -103,32 +103,24 @@ body {
 
 #grid-sec {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 3rem;
     text-align: center;
     width: 90%;
     margin: 0 auto;
-    
-}
-
-#grid-sec img {
-    width: 100%;
-    object-fit: cover;
-    padding: 1.5rem;
-    border-bottom: 3px dashed springgreen;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-#grid-sec img:hover {
-    transform: scale(1.1);
-    transition: all 0.8s;
-    border-radius: 10px;
+    padding: 5rem;
+    color: rgb(40, 149, 177);
+    font-size: 1.5rem;
+    text-align: left;
 }
 
 #grid-sec p {
-    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: rgb(35, 63, 35);
+    padding: 1.3rem 0rem;
 }
+
+
 
 button {
     background-color: rgba(0, 162, 255, 0.678);

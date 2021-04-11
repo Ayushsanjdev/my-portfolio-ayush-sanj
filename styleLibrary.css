@@ -100,10 +100,9 @@ body {
 }
 
 #grid-sec img {
-    width: 300px;
+    width: 100%;
     object-fit: cover;
-    padding-top: 3rem;
-    padding-bottom: 1rem;
+    padding: 1.5rem;
     border-bottom: 5px groove springgreen;
 }
 
@@ -123,6 +122,7 @@ button {
 button:hover {
     background-color: springgreen;
     cursor: pointer;
+    transition: all 1s;
 }
 
 #stack-section {

@@ -106,14 +106,18 @@ body {
     grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
     text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    
 }
 
 #grid-sec img {
     width: 100%;
     object-fit: cover;
     padding: 1.5rem;
-    border-bottom: 5px groove springgreen;
+    border-bottom: 3px dashed springgreen;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 #grid-sec img:hover {
@@ -123,7 +127,7 @@ body {
 }
 
 #grid-sec p {
-    padding-bottom: 1rem;
+    padding: 1rem 2rem;
 }
 
 button {

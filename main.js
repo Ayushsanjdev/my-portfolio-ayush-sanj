@@ -11,11 +11,6 @@ function toggleMobileNavigation() {
     }
 }
 
-
-
-
-
-
 // function directionNotification() {
 //     alert("click on blue button and see accordingly!!, :) :D");
 // }

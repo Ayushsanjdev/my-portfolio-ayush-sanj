@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styleLibrary.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto|Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Projects-Ayush-sanj-Portfolio</title>
 </head>
 
@@ -18,8 +19,27 @@
 </style>
 
 <body>
+    <!-- mobile navigation menu area -->
+    <div class="mobile-nav" id="mobile-nav">
+		<div class="close-btn" onclick="toggleMobileNavigation()">
+			<button>
+				<i class="fa fa-close"></i>
+			</button>
+		</div>
+		<a href="#" class="mobile-nav-link mobile-nav-link-active">Home</a>
+		<a href="#projects-section" class="mobile-nav-link">Projects</a>
+		<a href="#blogs-section" class="mobile-nav-link">Blogs</a>
+	</div>
+    <!--menu area ends -->
     <header id="head">
         <a href="index.html"><img src="dp.png" alt="my dp" class="dp-img"></a>
+        <!-- menu button -->
+        <div class="menu-btn" onclick="toggleMobileNavigation()">
+			<button>
+				<i class="fa fa-reorder"></i>
+			</button>
+		</div>
+        <!-- ends -->
         <nav id="navbar">
             <div style="background-color: springgreen;">
                 <a href="index.html">Home</a>

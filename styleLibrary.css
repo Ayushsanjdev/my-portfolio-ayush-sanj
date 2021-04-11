@@ -24,7 +24,6 @@ body {
     padding: 1rem;
     background-color: rgba(0, 162, 255, 0.678);
     border-bottom: 1rem groove springgreen;
-    border-top: 1rem groove springgreen;
     text-align: center;
 }
 
@@ -222,7 +221,6 @@ button:hover {
     padding: 0.5rem 0rem;
     background-color: rgba(0, 162, 255, 0.678);
     border-bottom: 1rem groove springgreen;
-    border-top: 1rem groove springgreen;
     color: #fff;
     font-size: 0.8rem;
     text-align: center;

@@ -36,6 +36,11 @@ body {
     border-radius: 50%;
 }
 
+#head .dp-img:hover {
+    transform: scale(1.3);
+    transition: all 1s;
+}
+
 #head,
 #navbar {
     display: flex;

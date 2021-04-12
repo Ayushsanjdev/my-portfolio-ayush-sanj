@@ -162,18 +162,20 @@ button:hover {
     font-weight: bold;
     font-family: sans-serif;
     cursor: pointer;
+    border-radius: 5px;
 }
 
-#stack-section div:hover {
-    background-color: rgba(0, 162, 255, 0.678);
-    border-radius: 10px;
-    transition: all 1s;
-    cursor: pointer;
+#stack-section #stack-div > div:hover {
+    transform: scale(1.2);
+    transition: all 100ms;
 }
 
 #stack-section #stack-div {
     border-bottom: 1rem groove springgreen;
     border-top: 1rem groove springgreen;
+    background-color: rgba(0, 162, 255, 0.678);
+    border-radius: 5px;
+    cursor: initial;
 }
 
 #projects-section,

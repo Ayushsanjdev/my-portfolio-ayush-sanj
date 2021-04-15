@@ -106,7 +106,7 @@ body {
     grid-template-columns: repeat(1, 1fr);
     gap: 3rem;
     max-width: 100%;
-    padding: 3rem;
+    padding: 4rem 8rem;
     color: rgb(19, 72, 85);
     font-size: 1.5rem;
     text-align: left;
@@ -163,7 +163,7 @@ button:hover {
     border-radius: 5px;
 }
 
-#stack-section #stack-div > div:hover {
+#stack-section #stack-div>div:hover {
     transform: scale(1.2);
     transition: all 100ms;
 }
@@ -329,5 +329,9 @@ button:hover {
 
     .close-btn {
         float: right;
+    }
+
+    #grid-sec {
+        padding: 3rem;
     }
 }

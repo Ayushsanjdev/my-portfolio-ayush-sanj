@@ -178,7 +178,7 @@ button:hover {
 }
 
 #projects-section,
-#blogs-section {
+#blogs-section, #rwd-section {
     background-color: rgb(245, 243, 243);
     padding-bottom: 1rem;
 }
@@ -197,7 +197,7 @@ button:hover {
 }
 
 .projects-btn,
-.blogs-btn {
+.blogs-btn, .rwd-btn {
     padding: 0.5rem;
     background-color: rgba(0, 162, 255, 0.678);
     color: #fff;
@@ -208,13 +208,13 @@ button:hover {
 }
 
 .projects-btn a,
-.blogs-btn a {
+.blogs-btn a, .rwd-btn a {
     text-decoration: none;
     color: #fff;
 }
 
 .projects-btn:hover,
-.blogs-btn:hover {
+.blogs-btn:hover, .rwd-btn:hover {
     background-color: springgreen;
     cursor: pointer;
     transform: scale(1.2);
@@ -236,6 +236,24 @@ button:hover {
     width: 70%;
     margin: 0 auto;
 }
+
+#rwd-section {
+    margin: 1.5rem auto;
+    text-align: center;
+}
+
+#rwd-section h1 {
+    padding: 1rem;
+    color: rgba(54, 33, 92, 1);
+}
+
+#rwd-section p {
+    font-size: 1.2rem;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
 
 #footer {
     padding: 0.5rem 0rem;

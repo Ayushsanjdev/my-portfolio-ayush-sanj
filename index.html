@@ -1,104 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styleLibrary.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto|Lobster" rel="stylesheet">
-    <link rel="shortcut icon" href="dp.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styleLibrary.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins|Roboto|Lobster"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="dp.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Home - Ayush Sanj</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- mobile navigation menu area -->
     <div class="mobile-nav" id="mobile-nav">
-		<div class="close-btn" onclick="toggleMobileNavigation()">
-			<button>
-				<i class="fa fa-close"></i>
-			</button>
-		</div>
-		<a href="index.html" class="mobile-nav-link mobile-nav-link-active">Home</a>
-		<a href="projects.html" class="mobile-nav-link">Projects</a>
-		<a href="blogs.html" class="mobile-nav-link">Blogs</a>
-	</div>
+      <div class="close-btn" onclick="toggleMobileNavigation()">
+        <button>
+          <i class="fa fa-close"></i>
+        </button>
+      </div>
+      <a href="index.html" class="mobile-nav-link mobile-nav-link-active"
+        >Home</a
+      >
+      <a href="projects.html" class="mobile-nav-link">Projects</a>
+      <a href="blogs.html" class="mobile-nav-link">Blogs</a>
+    </div>
     <!--menu area ends -->
     <header id="head">
-        <a href="index.html"><img src="dp2.png" alt="my dp" class="dp-img"></a>
-        <h1>I'm Ayush Sanj</h1>
-        <!-- menu button -->
-        <div class="menu-btn" onclick="toggleMobileNavigation()">
-			<button>
-				<i class="fa fa-reorder"></i>
-			</button>
-		</div>
-        <!-- ends -->
-        <nav id="navbar">
-            <div>
-                <a href="#">Home</a>
-            </div>
-            <div>
-                <a href="#projects-section" id="direction" onclick="directionNotification()">Projects</a>
-            </div>
-            <div>
-                <a href="#rwd-section" id="direction" onclick="directionNotification()">RWD</a>
-            </div>
-            <div>
-                <a href="#blogs-section" id="direction" onclick="directionNotification()">Blogs</a>
-            </div>
-        </nav>
+      <a href="index.html"
+        ><img src="newdp.png" alt="my dp" class="dp-img"
+      /></a>
+      <h1>I'm Ayush Sanj</h1>
+      <!-- menu button -->
+      <div class="menu-btn" onclick="toggleMobileNavigation()">
+        <button>
+          <i class="fa fa-reorder"></i>
+        </button>
+      </div>
+      <!-- ends -->
+      <nav id="navbar">
+        <div>
+          <a href="#">Home</a>
+        </div>
+        <div>
+          <a
+            href="#projects-section"
+            id="direction"
+            onclick="directionNotification()"
+            >Projects</a
+          >
+        </div>
+        <!-- <div> -->
+        <!-- <a href="#rwd-section" id="direction" onclick="directionNotification()">RWD</a> -->
+        <!-- </div> -->
+        <div>
+          <a
+            href="#blogs-section"
+            id="direction"
+            onclick="directionNotification()"
+            >Blogs</a
+          >
+        </div>
+      </nav>
     </header>
     <main id="main-container">
-        <section id="image-section">
-            <img src="undraw_developer_activity_bv83.svg" alt="programmer typing" class="the-only-img" />
-            <p class="title-para"> A Front-end Web Developer</p>
-        </section>
-        <hr>
-        <section id="stack-section">
-            <h1>Tech stack & Tools</h1>
-            <div id="stack-div">
-                <div>HTML5</div>
-                <div>CSS3</div>
-                <div>RWD</div>
-                <div>Git</div>
-                <div>Github</div>
-                <div>Javascript</div>
-                <div>React Js</div>
-                <div>Node Js (npm)</div>
-                <div>Terminal</div>
-                <div>Web Hosting</div>
-                <div>Firebase</div>
-            </div>
-        </section>
+      <section id="image-section">
+        <img src="cover.svg" alt="programmer typing" class="the-only-img" />
+        <p class="title-para">A Front-end Web Developer</p>
+      </section>
+      <hr />
+      <section id="stack-section">
+        <h1>Tech stack & Tools</h1>
+        <div id="stack-div">
+          <div>HTML5</div>
+          <div>CSS3</div>
+          <div>RWD</div>
+          <div>Git</div>
+          <div>Github</div>
+          <div>Javascript</div>
+          <div>React Jsx</div>
+          <div>Node Js(npm)</div>
+          <div>Terminal</div>
+          <div>Web Hosting</div>
+          <div>Firebase</div>
+          <div>Linux</div>
+        </div>
+      </section>
 
-        <section id="projects-section">
-            <h1>Hands-On Projects</h1>
-            <p>I would like to showcase my projects or hands on practice i.e. Translator app, React web-app, web templates like team page and more... watch as you click on the button >></p>
-            <div class="projects-btn"><a href="projects.html">See Projects</a></div>
-        </section>
-        <section id="blogs-section">
-            <h1>Tech and Non-tech Blogs</h1>
-            <p>I would like to showcase my blogs i.e. Recipe-blog and curiousity-gaming news blog and more.. on your click >></p>
-            <div class="blogs-btn"><a href="blogs.html">See Blogs</a></div>
-        </section>
-        <section id="rwd-section">
-            <h1>Responsive Web Design</h1>
-            <p>I would like to show you my responsive web development i.e used pure HTML, CSS like 
-            landing pages, team page and more >></p>
-            <div class="rwd-btn"><a href="rwd.html">Checkout All</a></div>
-        </section>
+      <section id="projects-section">
+        <h1>Hands-On Projects</h1>
+        <p>
+          I would like to showcase my projects or hands on practice i.e.
+          Translator app, React web-app, web templates like team page and
+          more... watch as you click on the button >>
+        </p>
+        <div class="projects-btn"><a href="projects.html">See Projects</a></div>
+      </section>
+      <section id="blogs-section">
+        <h1>Tech and Non-tech Blogs</h1>
+        <p>
+          I would like to showcase my blogs i.e. Recipe-blog and
+          curiousity-gaming news blog and more.. on your click >>
+        </p>
+        <div class="blogs-btn"><a href="blogs.html">See Blogs</a></div>
+      </section>
+      <section id="rwd-section">
+        <h1>Responsive Web Design</h1>
+        <p>
+          I would like to show you my responsive web development i.e used pure
+          HTML, CSS like landing pages, team page and more >>
+        </p>
+        <div class="rwd-btn"><a href="rwd.html">Checkout All</a></div>
+      </section>
     </main>
     <footer id="footer">
-        <h1>Connect with me</h1>
-        <a href="https://github.com/Ayushsanjdev"><img src="iconmonstr-github-1.svg" alt="github icon"></a>
-        <a href="https://www.linkedin.com/in/ayush-s-065714101/"><img src="iconmonstr-linkedin-3.svg"
-                alt="linkedin icon"></a>
-        <a href="https://www.linkedin.com/in/ayush-s-065714101/"><img src="iconmonstr-twitter-1.svg"
-                alt="twitter icon"></a>
+      <h1>Connect with me</h1>
+      <a href="https://github.com/Ayushsanjdev"
+        ><img src="iconmonstr-github-1.svg" alt="github icon"
+      /></a>
+      <a href="https://www.linkedin.com/in/ayush-s-065714101/"
+        ><img src="iconmonstr-linkedin-3.svg" alt="linkedin icon"
+      /></a>
+
+      <a href="https://www.linkedin.com/in/ayush-s-065714101/"
+        ><img src="iconmonstr-twitter-1.svg" alt="twitter icon"
+      /></a>
     </footer>
     <script src="main.js"></script>
-</body>
-
+  </body>
 </html>

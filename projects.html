@@ -1,134 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styleLibrary.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto|Lobster" rel="stylesheet">
-    <link rel="shortcut icon" href="dp.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styleLibrary.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins|Roboto|Lobster"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="dp.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Projects - Ayush Sanj</title>
-</head>
+  </head>
 
-<style>
+  <style>
     a {
-        text-decoration: none;
-        color: #fff;
+      text-decoration: none;
+      color: #fff;
     }
 
     #grid-sec {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 3rem;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 3rem;
     }
     @media only screen and (max-width: 600px) {
-        #grid-sec {
-            grid-template-columns: repeat(1, 1fr);
-        }
+      #grid-sec {
+        grid-template-columns: repeat(1, 1fr);
+      }
     }
-</style>
+  </style>
 
-<body>
+  <body>
     <!-- mobile navigation menu area -->
     <div class="mobile-nav" id="mobile-nav">
-        <div class="close-btn" onclick="toggleMobileNavigation()">
-            <button>
-                <i class="fa fa-close"></i>
-            </button>
-        </div>
-        <a href="index.html" class="mobile-nav-link mobile-nav-link-active">Home</a>
-        <a href="#" class="mobile-nav-link">Projects</a>
-        <a href="blogs.html" class="mobile-nav-link">Blogs</a>
+      <div class="close-btn" onclick="toggleMobileNavigation()">
+        <button>
+          <i class="fa fa-close"></i>
+        </button>
+      </div>
+      <a href="index.html" class="mobile-nav-link mobile-nav-link-active"
+        >Home</a
+      >
+      <a href="#" class="mobile-nav-link">Projects</a>
+      <a href="blogs.html" class="mobile-nav-link">Blogs</a>
     </div>
     <!--menu area ends -->
     <!-- heading part -->
     <header id="head">
-        <h1>Projects</h1>
-        <!-- menu button -->
-        <div class="menu-btn" onclick="toggleMobileNavigation()">
-            <button>
-                <i class="fa fa-reorder"></i>
-            </button>
+      <h1>Projects</h1>
+      <!-- menu button -->
+      <div class="menu-btn" onclick="toggleMobileNavigation()">
+        <button>
+          <i class="fa fa-reorder"></i>
+        </button>
+      </div>
+      <!-- ends -->
+      <nav id="navbar">
+        <div style="background-color: springgreen;">
+          <a href="index.html">Home</a>
         </div>
-        <!-- ends -->
-        <nav id="navbar">
-            <div style="background-color: springgreen;">
-                <a href="index.html">Home</a>
-            </div>
-            <div style="background-color: rgba(58, 40, 90, 0.664)" ;>
-                <a href="#">Projects</a>
-            </div>
-            <div>
-                <a href="blogs.html">Blogs</a>
-            </div>
-        </nav>
+        <div style="background-color: rgba(58, 40, 90, 0.664);" ;>
+          <a href="#">Projects</a>
+        </div>
+        <div>
+          <a href="blogs.html">Blogs</a>
+        </div>
+      </nav>
     </header>
 
     <!-- grid section starts -->
     <section id="grid-sec">
-        <div>
-            <small style="font-size: 0.8rem;">https://translate-to-groot-app.netlify/...</small>
-            <h1><a href="https://translate-to-groot-app.netlify.app/" style="color:rgba(52, 129, 148, 0.664)" target="_blank">Speak Groot App</a>
-            </h1>
-            <img src="https://d33wubrfki0l68.cloudfront.net/60769e8d057eac000799e3c2/screenshot_2021-04-14-07-49-40-0000.png" alt="Speak Groot app" width="200px" style="border: 2px dotted lightgrey;" />
-            <p>Speak Groot App is totally made in vanilla Js.
-                Used funtranslations API to create this app.
-                User input processed and output in another language which....
-            </p>
-        </div>
-        <div>
-            <small style="font-size: 0.8rem;">https://replit.com/@ayushsanj/Mr-Robot-F...</small>
-            <h1><a href="https://replit.com/@ayushsanj/Mr-Robot-Fans?embed=1&output=1" style="color:rgba(27, 158, 23, 0.664)" target="_blank">Mr Robot fans quiz CLI app</a>
-            </h1>
-            <img src="Mr robot ClI.png" alt="Cli app" width="200px" style="border: 2px dotted lightgrey;" />
-            <p>I used CLI to make this app with the help of replit.io (online IDE). Stack used - Vanilla JS. This is about the netflix series mr robot....</p>
-        </div>
-        <div>
-            <small style="font-size: 0.8rem;">https://replit.com/@ayushsa/...</small>
-            <h1><a href="https://replit.com/@ayushsanj/neog-camp-assignment-game?embed=1&output=1#README.md" style="color:rgba(60, 116, 201, 0.664)" target="_blank">Neog Lesson one quiz game</a>
-            </h1>
-            <img src="Mr robot ClI.png" alt="Cli2" width="200px" style="border: 2px dotted lightgrey;" />
-            <p>Another CLI app only for those who have done lesson one. used Vanilla JS. Here you will find quiz on the basi...</p>
-        </div>
-        <div>
-            <small style="font-size: 0.8rem;">https://cncsu.csb...</small>
-            <h1><a href="https://cncsu.csb.app/" style="color:rgba(228, 94, 53, 0.664)" target="_blank">Music genre suggestion app</a>
-            </h1>
-            <img src="reactapp.png" alt="React app" width="200px" style="border: 2px dotted lightgrey;" />
-            <p>App made in REACT.JS in which I have used codesandbox to make and host it. This app will tell you the best genre...</p>
-        </div>
-        <div>
-            <small style="font-size: 0.8rem;">https://ob8no.csb...</small>
-            <h1><a href="https://ob8no.csb.app/" style="color:rgb(228, 94, 53)" target="_blank">Emonji Interpreter</a>
-            </h1>
-            <img src="emonji.png" alt="emonji app" width="200px" style="border: 2px dotted lightgrey;" />
-            <p>Used stack REACT.JS in which I have used codesandbox to make and host it. This app is suggesting emonji defination after you...</p>
-        </div>
-        <div>
-            <small style="font-size: 0.8rem;">https://bananatalkapp...</small>
-            <h1><a href="https://bananatalkapp.netlify.app/" style="color:rgba(79, 53, 228, 0.664)" target="_blank">Minion Translator</a>
-            </h1>
-            <img src="https://d33wubrfki0l68.cloudfront.net/6079a97bbd42392dd8432fda/screenshot_2021-04-16-15-13-06-0000.png" alt="minions app" width="200px" style="border: 2px dotted lightgrey;" />
-            <p>Used stack Vanill Js in which I have used netlify to make and host it. This app is translating to minion lang...</p>
-        </div>
-        <div>
-            <small style="font-size: 0.8rem;">https://todo-app-with-firebas...</small>
-            <h1><a href="https://todo-app-with-firebase-882c9.web.app/" style="color:rgba(23, 208, 233, 0.664)" target="_blank">Todo app using firebase</a>
-            </h1>
-            <img src="Todo.png" alt="Todo app" width="200px" style="border: 2px dotted lightgrey;" />
-            <p>Used stack REACT Js in which I have used firebase to host and as backend also. This app is doing your daily task...</p>
-        </div>
-
+      <div>
+        <small style="font-size: 0.8rem;">https://memoguy.ver...</small>
+        <h1>
+          <a
+            href="https://memoguy.vercel.app/"
+            style="color: rgba(23, 208, 233, 0.664);"
+            target="_blank"
+            >Memoguy - Note taking app</a
+          >
+        </h1>
+        <img
+          src="memoguy.png"
+          alt="memo app"
+          width="200px"
+          style="border: 2px dotted lightgrey;"
+        />
+        <p>
+          (CRUD) Used stack REACT Js in which I have used firebase as backend
+          and hosted on vercel. Added debounce function & React-quill...
+        </p>
+      </div>
+      <div>
+        <small style="font-size: 0.8rem;">https://snapbook.ver...</small>
+        <h1>
+          <a
+            href="https://snapbook.vercel.app/"
+            style="color: rgba(23, 208, 233, 0.664);"
+            target="_blank"
+            >snapbook - Image app</a
+          >
+        </h1>
+        <img
+          src="snapbook.png"
+          alt="snapbook app"
+          width="200px"
+          style="border: 2px dotted lightgrey;"
+        />
+        <p>
+          (CRUD) Used stack REACT Js in which I have used vercel to host and
+          firebase as backend also...
+        </p>
+      </div>
+      <div>
+        <small style="font-size: 0.8rem;"
+          >https://translate-to-groot-app.netlify/...</small
+        >
+        <h1>
+          <a
+            href="https://translate-to-groot-app.netlify.app/"
+            style="color: rgba(52, 129, 148, 0.664);"
+            target="_blank"
+            >Speak Groot App</a
+          >
+        </h1>
+        <img
+          src="https://d33wubrfki0l68.cloudfront.net/60769e8d057eac000799e3c2/screenshot_2021-04-14-07-49-40-0000.png"
+          alt="Speak Groot app"
+          width="200px"
+          style="border: 2px dotted lightgrey;"
+        />
+        <p>
+          Speak Groot App is totally made in vanilla Js. Used funtranslations
+          API to create this app. User input processed and output in another
+          language which....
+        </p>
+      </div>
+      <div>
+        <small style="font-size: 0.8rem;"
+          >https://replit.com/@ayushsanj/Mr-Robot-F...</small
+        >
+        <h1>
+          <a
+            href="https://replit.com/@ayushsanj/Mr-Robot-Fans?embed=1&output=1"
+            style="color: rgba(27, 158, 23, 0.664);"
+            target="_blank"
+            >Mr Robot fans quiz CLI app</a
+          >
+        </h1>
+        <img
+          src="Mr robot ClI.png"
+          alt="Cli app"
+          width="200px"
+          style="border: 2px dotted lightgrey;"
+        />
+        <p>
+          I used CLI to make this app with the help of replit.io (online IDE).
+          Stack used - Vanilla JS. This is about the netflix series mr robot....
+        </p>
+      </div>
+      <div>
+        <small style="font-size: 0.8rem;">https://todo-app-rea...</small>
+        <h1>
+          <a
+            href="https://todo-app-react-ruddy.vercel.app/"
+            style="color: rgba(60, 116, 201, 0.664);"
+            target="_blank"
+            >Todo App</a
+          >
+        </h1>
+        <img
+          src="todoapp.png"
+          alt="todoapp"
+          width="200px"
+          style="border: 2px dotted lightgrey;"
+        />
+        <p>
+          (CRUD) Todo app made with reactjs and firebase as baas. I also have
+          added more tools like material ui...
+        </p>
+      </div>
+      <div>
+        <small style="font-size: 0.8rem;">https://cncsu.csb...</small>
+        <h1>
+          <a
+            href="https://cncsu.csb.app/"
+            style="color: rgba(228, 94, 53, 0.664);"
+            target="_blank"
+            >Music genre suggestion app</a
+          >
+        </h1>
+        <img
+          src="reactapp.png"
+          alt="React app"
+          width="200px"
+          style="border: 2px dotted lightgrey;"
+        />
+        <p>
+          App made in REACT.JS in which I have used codesandbox to make and host
+          it. This app will tell you the best genre...
+        </p>
+      </div>
+      <div>
+        <small style="font-size: 0.8rem;">https://ob8no.csb...</small>
+        <h1>
+          <a
+            href="https://ob8no.csb.app/"
+            style="color: rgb(228, 94, 53);"
+            target="_blank"
+            >Emonji Interpreter</a
+          >
+        </h1>
+        <img
+          src="emonji.png"
+          alt="emonji app"
+          width="200px"
+          style="border: 2px dotted lightgrey;"
+        />
+        <p>
+          Used stack REACT.JS in which I have used codesandbox to make and host
+          it. This app is suggesting emonji defination after you...
+        </p>
+      </div>
+      <div>
+        <small style="font-size: 0.8rem;">https://bananatalkapp...</small>
+        <h1>
+          <a
+            href="https://bananatalkapp.netlify.app/"
+            style="color: rgba(79, 53, 228, 0.664);"
+            target="_blank"
+            >Minion Translator</a
+          >
+        </h1>
+        <img
+          src="https://d33wubrfki0l68.cloudfront.net/6079a97bbd42392dd8432fda/screenshot_2021-04-16-15-13-06-0000.png"
+          alt="minions app"
+          width="200px"
+          style="border: 2px dotted lightgrey;"
+        />
+        <p>
+          Used stack Vanill Js in which I have used netlify to make and host it.
+          This app is translating to minion lang...
+        </p>
+      </div>
     </section>
     <!-- button section -->
-    <button style="width: 150px; margin: 2rem auto; display: block;"> <a href="blogs.html"
-            style="text-decoration: none; color: #fff;">Go to
-            Blogs</a>
+    <button style="width: 150px; margin: 2rem auto; display: block;">
+      <a href="blogs.html" style="text-decoration: none; color: #fff;"
+        >Go to Blogs</a
+      >
     </button>
     <!-- javascript for mob navigation bar -->
     <script src="main.js"></script>
-</body>
-
+  </body>
 </html>
